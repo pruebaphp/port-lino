@@ -1,0 +1,101 @@
+:root{
+    /* --color-primario:#754ef9; */
+    /* --color-primario:#00abf0;  */
+    /* --color-primario:#b1135a; */
+    --color-primario:rgb(188, 36, 69);
+    --color-background:#fdfdfd;
+    --color-textoDark:rgb(208, 208, 208);
+    --color-textoOscuro:rgb(30, 30, 30);
+    --color-azulOscuro: #081b29;
+    --color-textoClaro:white;
+}
+
+.dark{
+    background-color: var(--color-azulOscuro);
+    color: var(--color-textoClaro);
+}
+
+.dark .header_scroll{
+    background: rgba(255,255,255,0);
+    /* background-color: #00acf0d9; */
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 5;
+    backdrop-filter: blur(20px);
+}
+
+.dark .nombre_pagina{
+    color: var(--color-textoDark);
+}
+
+.dark .switch_mode{
+    /* background-color: rgb(34, 34, 34); */
+    background-color: #403f3f;
+}
+
+.dark .switch_mode .boton_modo{
+    left: 0;
+    background: linear-gradient(to bottom, #444,#222);
+}
+
+.dark .contenido_texto_saludo{
+    color: var(--color-textoDark);
+}
+
+.dark .contenido_texto_nombre{
+    color: var(--color-textoDark);
+}
+
+.dark .contenido_texto_descripcion{
+    color: var(--color-textoDark);
+}
+
+.dark .header_vinculo{
+    color: var(--color-textoDark);
+}
+
+.dark .header_vinculo:hover{
+    color: var(--color-primario);
+}
+
+.dark .btn_cv:hover{
+    color: var(--color-textoClaro);
+}
+
+.dark .titulo_portafolio{
+    color: var(--color-textoDark);
+}
+.dark .skills{
+    background-color: #252830;
+}
+.dark .skills h3{
+    color: var(--color-textoDark);
+}
+
+.dark .card-body{
+    background: linear-gradient(90deg, rgba(208,59,124,0.165703781512605) 0%, rgba(0,0,0,0.3477766106442577) 100%);
+}
+
+
+.dark .input_contacto{
+    border: none;
+    background-color: #252830;
+    color: var(--color-textoClaro);
+}
+
+.dark .btn_contacto:hover{
+    color: var(--color-textoClaro);
+}   
+
+.dark .sk-chase-dot:before{
+    background-color: white;
+}
+
+.dark .menu_navegacion_flotante{
+    background-color: rgb(2, 6, 25);
+}
+
+.dark .enlace_menu_flotante{
+    color: var(--color-textoDark);
+}
